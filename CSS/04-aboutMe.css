@@ -1,8 +1,9 @@
 .aboutMe{
     font-family: var(--font-two);
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
-    margin: 5px 5px 5px 5px;
+    margin: 15px 15px 15px 15px;
     padding: 10px 10px 10px 10px; 
-    background-color: #C6BDEC;
+    background-color: #C3C4C8;
+    border-radius: 5%;
 }
