@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phoenix's Portfolio</title>
+
+    <!--Bootstrap Style-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--Font Style-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Padauk&family=Petit+Formal+Script&display=swap" rel="stylesheet">
+    <!--My Style-->
+    <link rel="stylesheet" href="./CSS/00-main.css">
+
+</head>
+<body>
+<div class="wrapper">
+
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">PB</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Me</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  Projects
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Static Layout</a></li>
+                  <li><a class="dropdown-item" href="#">Creature Assignment</a></li>
+                  <li><a class="dropdown-item" href="#">Pokemon Randomizer(API Project#1)</a></li>
+                  <li><a class="dropdown-item" href="#">API Project #2</a></li>
+                  <li><a class="dropdown-item" href="#">Blue Badge TBA</a></li>
+                  <li><a class="dropdown-item" href="#">Red Badge TBA</a></li>
+                </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Me</a>
+                  </li>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    <div class="row">
+
+        <div class="aboutMe col-3 border border-5 "> 
+            <div class="professionalHeadshot">
+                <img src="" alt="">
+            </div>
+            <p class="aboutMe text-center">Nice to meet you, I'm Phoenix! I'm currently in Eleven Fifty Academy aiming for the skills of a junior web developer. Since we're making this portfolio at the one month mark I only have a few projects to my name. That said please take a look at my Pokemon Randomizer, I'm very proud of it.</p>
+            
+            <br>
+            <p class="aboutMe text-center">On a more personal note, I am joining the workforce late due to the fact that I was a Nanny for my family for several years. I'm looking forward to the independence this change in my life represents.</p>
+        </div>
+        
+    </div>
+        
+</div> 
+
+<script type="module">
+    import { Toast } from 'bootstrap.esm.min.js'
+  
+    Array.from(document.querySelectorAll('.toast'))
+      .forEach(toastNode => new Toast(toastNode))
+  </script>
+</body>
+</html>

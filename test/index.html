@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">The providers</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar navbar-nav">
+                <li><a href="#">Home</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+      <script type="module">
+        import { Toast } from 'bootstrap.esm.min.js'
+      
+        Array.from(document.querySelectorAll('.toast'))
+          .forEach(toastNode => new Toast(toastNode))
+      </script>
+</body>
+</html>
