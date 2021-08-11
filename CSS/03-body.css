@@ -27,5 +27,9 @@ body{
     position: relative;
     top: -1000px;
     left: 1000px;
+    font-family: var(--font-one);
 }
-   
+
+h3{
+    font-family:  var(--font-one);
+   }

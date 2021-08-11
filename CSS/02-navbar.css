@@ -1,6 +1,7 @@
 .navbar{
     background-color: #00777D;
     border-style: none none solid;
+    border-color:  #c3c4c8;
     font-family: var(--font-one);
     font-size: 40px;
     position: fixed;
