@@ -1,7 +1,10 @@
 .navbar{
     background-color: #00777D;
+    border-style: none none solid;
     font-family: var(--font-one);
     font-size: 40px;
+    position: fixed;
+    z-index: 2;
     
 }
 .navbar-brand{

@@ -4,8 +4,28 @@ body{
 
 
 #contactForm{
-    margin: auto;
+    margin: 10px 10px 10px 10px;
+
     padding: 10px 10px 10px 10px; 
     background-color: #C3C4C8;
     border-radius: 5%;
+    font-family: var(--font-one);
+    font-size: large;
 }
+
+#resume{
+    background-color: #C3C4C8;
+    border-radius: 5%;
+}
+
+#areaForTheFuture{
+    background-color: #C3C4C8;
+    border-radius: 5%;
+}
+
+#landing{
+    position: relative;
+    top: -1000px;
+    left: 1000px;
+}
+   

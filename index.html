@@ -21,7 +21,7 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-#01B7F0">
+    <nav class="col-12 navbar navbar-expand-lg navbar-light bg-#01B7F0">
         <div class="container-fluid ">
           <a class="navbar-brand border border-5" id="logoInitials" href="#">PB</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,20 +34,20 @@
               </li>
              
               <li class="nav-item dropdown border border-5">
-                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link active dropdown-toggle" href="#projectsGoHere" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Projects
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="https://brentonphoenix.github.io/StaticLayout/">Static Layout</a></li>
-                  <li><a class="dropdown-item" href="https://codepen.io/Brenton-P/pen/xxdLxgm">Creature Assignment</a></li>
-                  <li><a class="dropdown-item" href="https://brentonphoenix.github.io/API-challenge-1/" target="blank">API Project #1/Pokemon Randomizer</a></li>
-                  <li><a class="dropdown-item" href="#">API Project #2</a></li>
+                  <li><a class="dropdown-item" href="#projectsGoHere">Static Layout</a></li>
+                  <li><a class="dropdown-item" href="#projectsGoHere">Creature Assignment</a></li>
+                  <li><a class="dropdown-item" href="#projectsGoHere">API Project #1/Pokemon Randomizer</a></li>
+                  <li><a class="dropdown-item" href="#projectsGoHere">API Project #2</a></li>
                   <li><a class="dropdown-item" href="#">Blue Badge TBA</a></li>
                   <li><a class="dropdown-item" href="#">Red Badge TBA</a></li>
                 </ul>
               </li>
               <li class="nav-item border border-5">
-                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                <a class="nav-link active" aria-current="page" href="#contactForm">Contact</a>
               </li>
           
             </ul>
@@ -55,13 +55,77 @@
           </div>
         </div>
       </nav>
+<br>
+<br>
+<br>
+<br>
 
 <div class="col-12">
-    <img src="./assets/sean-oulashin-KMn4VEeEPR8-unsplash.jpg" alt="a picture of the beach with the sun top left" class="img-fluid" id="landingImg">
-    <div class="projects">
+    <img src="./assets/sean-oulashin-KMn4VEeEPR8-unsplash.jpg" alt="a picture of the beach with the sun top left" class="img-fluid border border-3" id="landingImg">
+  <div id="landing">
+    <h2>Do you want to get away?</h2>
+    <h3>Outsource your website to someone you can trust.</h3>
+  </div>
+</div>
 
+
+<div class="row justify-content-center">
+    <div class="col-2">
+        <h1 id="projectsGoHere">Projects</h1>
     </div>
 </div>
+<br>
+<hr>
+<br>
+<div class="projects row justify-content-evenly">
+    <div id="staticLayoutProject" class="card col-3 border border-3" style="width: 18rem;">
+        <img src="./assets/StaticLayoutIcon.png" class="card-img-top" alt="A Reconstruction of the Eleven Fifty Academy website">
+        <div class="card-body">
+          <h5 class="card-title">The Static Layout Project</h5>
+          <p class="card-text">This project had us mimic an existing website with HTML and CSS.</p>
+          <a href="https://brentonphoenix.github.io/StaticLayout/" target="blank" class="btn btn-primary">Static Layout</a>
+        </div>
+      </div>
+
+      <div id="cssCreatureProject" class="card col-3 border border-3" style="width: 18rem;">
+        <img src="./assets/CSS Creature.png" class="card-img-top" alt="a recreation of the anime character Yami Yugi from Yu-Gi-Oh">
+        <div class="card-body">
+          <h5 class="card-title">CSS Creature</h5>
+          <p class="card-text">This project had us create an image with HTML and CSS.</p>
+          <a href="https://codepen.io/Brenton-P/pen/xxdLxgm" target="blank" class="btn btn-primary">CSS Creature</a>
+        </div>
+      </div>
+
+      <div id="API1" class="card col-3 border border-3" style="width: 18rem;">
+        <img src="./assets/Pokemon Randomizer.png" class="card-img-top" alt="Preview of the website linked below">
+        <div class="card-body">
+          <h5 class="card-title">API 1: Pokemon Randomizer</h5>
+          <p class="card-text">First API project, goals were to use fetch to grab data and then DOM to display it.</p>
+          <a href="https://brentonphoenix.github.io/API-challenge-1/" target="blank" class="btn btn-primary">Pokemon Randomizer</a>
+        </div>
+      </div>
+
+      
+      <div id="API2" class="card col-3 border border-3" style="width: 18rem;">
+        <img src="./assets/Screenshot 2021-08-11 132953.jpg" class="card-img-top" alt="Preview of the website linked below">
+        <div class="card-body">
+          <h5 class="card-title">API 2: N.A.S.A.</h5>
+          <p class="card-text">Second API project, we had to get data from a more complex API.</p>
+          <a href="https://pb-api-challenge-2.web.app/" target="blank" class="btn btn-primary">N.A.S.A Project</a>
+        </div>
+      </div>
+      
+<!--
+     <img id="staticLayoutProject" src="" alt="">
+    <img id="cssCreatureProject" src="" alt="">
+    <img id="API1" src="" alt="">
+    <img id="API2" src="" alt="">
+    
+-->   
+</div>
+<br>
+<hr>
+<br>
       <div class="row">
 
         <div class="aboutMe col-9 border border-3"> 
@@ -75,7 +139,8 @@
             <p class="aboutMe text-center">On a more personal note, I am joining the workforce late due to the fact that I was a Nanny for my family for several years. I'm looking forward to the independence this change in my life represents.</p>
         </div>
        <div class="contactMe col-2 text-center border border-3" id="contactForm">
-               <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+           <h3>Contact Me</h3>
+               <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mnqlgeod" method="post">
                 <fieldset id="fs-frm-inputs">
                     <label for="full-name">Full Name</label>
                     <br>
@@ -87,7 +152,7 @@
                     <br>
                     <label for="message">Message</label>
                     <br>
-                    <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+                    <textarea rows="10" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
                     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                 </fieldset>
                 <input type="submit" value="Submit">
@@ -96,19 +161,43 @@
    </div>
      
 </div> 
-<div class="row">
-    <footer>
-        <div class="col-4" id="linkedIN">
-            <h3>Linked in linked logo goes here</h3>
-        </div>
-        <div class="col-4" id="resume">
-            <h3>downloadable resume goes here</h3>
-        </div>
+<br>
+<br>
+<br>
 
-        <div class="col-4" id="gitHUB">
-            <h3>github logo and link to personal github goes here</h3>
+<div class="container-fluid">
+  
+      <div class="row justify-content-evenly">
+
+        
+      
+        <div class="col-3 text-center justify-text-between border border-3" id="resume">
+          <a href="./assets/Brenton-Resume.pdf" target="blank" download>
+            <br>
+            <h3>My Resume</h3>
+            <br>
+          </a>
+
+
+            <div class="row justify-content-center">
+              <div class="col-2-s" id="linkedIN">
+                    <a href="https://www.linkedin.com/in/phoenix-brenton-5aa616218/" target="blank">
+                    <img src="./assets/icon-LN.jfif" alt="A linked In icon">
+                    </a>
+              </div>
+              <div class="col-2-s" id="gitHUB">
+                    <a href="https://github.com/BrentonPhoenix" target="blank">
+                    <img src="./assets/logo-GH.png" alt="Github logo">
+                    </a>
+              </div>
+            </div>
+            
         </div>
-    </footer>
+        <div class="col-8" id="areaForTheFuture">
+          <h3 class=" justify-text-between">Reserved for future attempts to humanize self to employment prospects such as photos</h3>
+        </div>
+      </div>
+
 </div>
-</body>
-</html>
+  </body>
+  </html>
