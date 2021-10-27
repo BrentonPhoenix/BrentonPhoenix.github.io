@@ -33,3 +33,14 @@ body{
 h3{
     font-family:  var(--font-one);
    }
+
+   img{
+       padding: 2px, 2px, 5px, 2px;
+        margin: 2px, 2px, 5px, 2px;
+       border-radius: 5%;
+   }
+
+   #carouselExampleIndicators{
+       border-radius: 5%;
+   }
+   
