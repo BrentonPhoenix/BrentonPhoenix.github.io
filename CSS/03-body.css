@@ -4,7 +4,7 @@ body{
 
 
 #contactForm{
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 45px;
 
     padding: 10px 10px 10px 10px; 
     background-color: #C3C4C8;
@@ -34,13 +34,16 @@ h3{
     font-family:  var(--font-one);
    }
 
-   img{
-       padding: 2px, 2px, 5px, 2px;
-        margin: 2px, 2px, 5px, 2px;
-       border-radius: 5%;
+   .caroImg{
+    margin: 15px 15px 15px 15px;
+    border-radius: 5%;
    }
 
    #carouselExampleIndicators{
        border-radius: 5%;
    }
-   
+
+   .card {
+       padding: 12px 6px 12px 6px;
+       margin: 12px 6px 12px 6px;
+   }
